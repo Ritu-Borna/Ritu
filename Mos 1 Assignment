@@ -1,0 +1,49 @@
+# Problem 1: Even or Odd
+
+number = int(input("Enter a number: "))
+
+if number % 2 == 0:
+    print("The number is even.")
+else:
+    print("The number is odd.")
+
+
+
+
+
+
+
+# Problem 2: Simple Calculator
+
+num1 = float(input("Enter first number: "))
+operator = input("Enter an operator (+, -, *, /): ")
+num2 = float(input("Enter second number: "))
+
+if operator == "+":
+    result = num1 + num2
+elif operator == "-":
+    result = num1 - num2
+elif operator == "*":
+    result = num1 * num2
+elif operator == "/":
+    if num2 != 0:
+        result = num1 / num2
+    else:
+        result = "Cannot divide by zero!"
+else:
+    result = "Invalid operator."
+
+print("Result:", result)
+
+
+
+
+
+# Problem 3: Sum of even numbers between 1 and 100
+
+total = 0
+
+for i in range(2, 101, 2):  # Even numbers from 2 to 100
+    total += i
+
+print("Sum of even numbers from 1 to 100 is:", total)
