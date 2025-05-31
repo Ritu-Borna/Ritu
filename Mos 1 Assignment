@@ -39,6 +39,8 @@ print("Result:", result)
 
 
 
+
+
 # Problem 3: Sum of even numbers between 1 and 100
 
 total = 0
